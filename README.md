@@ -23,16 +23,16 @@ $ composer install
 $ php artisan preset bootstrap
 $ npm install && npm run dev
 
-# when done we need to run the Laravel queue worker
+# run the Laravel queue worker
 $ php artisan queue:work --tries=3 --timeout=8600
+You need to run the queues separately
 
 # Finally 
 before running the serve command link the storage directory
 
 $php artisan storage:link
-
 $php artisan serve
-You need to run the queues separately
+
 
 
 
