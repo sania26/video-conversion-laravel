@@ -1,6 +1,6 @@
 # video-conversion-laravel
 steps for installig the project
-git clone https://github.com/sania26/video-conversion-laravel/project
+git clone https://github.com/sania26/video-conversion-laravel
 
 # once cloned you need to 
 get into the project directory
