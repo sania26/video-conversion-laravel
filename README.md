@@ -2,14 +2,13 @@
 steps for installig the project
 git clone https://github.com/sania26/video-conversion-laravel
 
-# once cloned you need to 
-get into the project directory
-cd project
-
 
 # update database details in the .env file 
+
 DB_DATABASE=laravel_stream
+
 DB_USERNAME=username
+
 DB_PASSWORD=password
 
 QUEUE_CONNECTION=database
